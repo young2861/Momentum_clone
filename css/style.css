@@ -1,0 +1,138 @@
+.hidden {
+    display: none;
+}
+
+* {
+    color: white;
+}
+
+body {
+    background-image: url("robert-mclay-tZWAe7OSwrk-unsplash.jpg");
+    background-size: cover;
+    height: 100vh;
+    /* background-image: none; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.top-row {
+    /*
+    background-color: aqua;
+    opacity: 20%;
+    */
+    width: 100%;
+    height: 10%;
+}
+
+.center-above {
+    /*
+    background-color: brown;
+    opacity: 20%;
+    */
+    width: 100%;
+    height: 15%;
+}
+
+.center {
+    /*
+    background-color: blue;
+    opacity: 20%;
+    */
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center-below {
+    /*
+    background-color: coral;
+    opacity: 20%;
+    */
+    width: 100%;
+    height: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom-row {
+    width: 100%;
+    height: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clockSection {
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.greetingSection {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#clock {
+    font-size: 1050%;
+    font-weight: 500;
+    letter-spacing: -5px;
+    text-align: center;
+}
+
+input {
+    background-color: darkgrey;
+    width: auto;
+    height: 30px;
+}
+
+#greeting {
+    font-size: 300%;
+    font-weight: 500;
+}
+
+#quote {
+    font-style: italic;
+    font-size: 1.125rem;
+}
+
+#todo-input {
+    background: transparent;
+    border-style: hidden hidden ridge;
+}
+
+
+.three-column-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+/*
+.test-grid1 {
+    background-color: yellowgreen;
+}
+
+.test-grid2 {
+    background-color: burlywood;
+}
+
+.test-grid3 {
+    background-color: gray;
+}
+*/
