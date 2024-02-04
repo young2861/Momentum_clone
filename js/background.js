@@ -1,9 +1,9 @@
 const images = ["0.jpeg", "1.jpeg", "2.jpeg"];
 
-//const chosenImage = images[Math.floor(Math.random() * images.length)];
+const chosenImage = images[Math.floor(Math.random() * images.length)];
 
-chosenImage = "francesco-ungaro-BIUPQYEAhXo-unsplash.jpg";
-
+//chosenImage = "francesco-ungaro-BIUPQYEAhXo-unsplash.jpg";
+/*
 const sst = document.styleSheets[0];
 console.log(sst);
 const bodySelector = "body";
@@ -19,7 +19,7 @@ for(let i = 0; i < sst.cssRules.length; i++) {
 }
 
 console.log("loop ends");
-
+*/
 /*
 const bgImage = document.createElement("img");
 
